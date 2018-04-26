@@ -1,5 +1,5 @@
 -#!/bin/sh      
-ssh lenovo@45.115.187.60 <<EOF        
+ssh lenovo@192.168.5.137 <<EOF        
  cd /home/lenovo/Cateina/research/jenkins/test-jenkins  
  git pull       
  npm install --production       
