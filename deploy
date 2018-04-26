@@ -3,7 +3,7 @@ ssh lenovo@192.168.5.137 <<EOF
  cd /home/lenovo/Cateina/research/jenkins/test-jenkins  
  git pull       
  npm install --production   
- npm i -g pm2    
+ sudo npm i -g pm2    
  pm2 restart all
  exit       
 EOF
