@@ -3,7 +3,8 @@ ssh lenovo@192.168.5.137 <<EOF
  export BUILD_ID=dontKillMePlease
  cd /home/lenovo/Cateina/research/jenkins/test-jenkins  
  git pull       
- npm install --production     
+ npm install --production 
+ pm2 status    
  pm2 restart app.js
  exit       
 EOF
